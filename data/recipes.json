@@ -1,0 +1,691 @@
+[
+  {
+    "stt": "1",
+    "name": "Cà Phê máy Nóng",
+    "category": "Cà Phê",
+    "ingredients": "- Cà phê hạt xay: 18gr (phin đơn)\n- 40ml/tách (cả lớp váng cà phê)",
+    "method": "- Lấy cà phê vào tay phin đơn\n- Nén và chiết xuất 20-25 giây vào tách espresso 40ml cả lớp váng cà phê",
+    "tools": "- Chén espresso\n- Đĩa trắng\n- Thìa ngắn\n- Đường que (cf đen)\n_ 20ml sữa (cf sữa)"
+  },
+  {
+    "stt": "2",
+    "name": "Cà Phê máy Đá",
+    "category": "Cà Phê",
+    "ingredients": "- Cà phê hạt xay: 18gr\n- Đá viên: 100gr\n- Đường nước: 10ml",
+    "method": "- Lấy cà phê vào tay phin, chiết xuất 20-25 giây vào ly Irich 40ml\n- 10ml đường vào cốc( cf đen)\n- 20ml sữa vào cốc (cf sữa)\n- Cho 100g đá viên",
+    "tools": "Chén espresso\nLy đá nắn\nThìa trung \nỐng hút nhỏ"
+  },
+  {
+    "stt": "3",
+    "name": "Cà Phê pha phin",
+    "category": "Cà Phê",
+    "ingredients": "- Cà phê bột 25gr\n- 70 nước sôi\n- 20ml sữa đặc(cf nâu)\n20ml đường( cf đen)",
+    "method": "-Lấy cf vào phin làm phẳng nén nhẹ\n Cho 20ml nước sôi vào ủ 15s\n- cho tiếp 50ml đợi 15s khơi thông",
+    "tools": "-ly thủy tinh ngắn\n- Thìa ngắn\n- ly đá \n- Đường que (cf đen)\n- rung sữa (cf sữa)"
+  },
+  {
+    "stt": "4",
+    "name": "Cà Phê Bạc sỉu",
+    "category": "Cà Phê",
+    "ingredients": "- Cà phê pha sẵn: 40ml   - sữa  đặc : 25ml\n- Sữa tươi : 50ml\n- Đá bi: 100gr",
+    "method": "- cho sữa đặc vào cốc, cho đá bi, đén 50ml sữa tươi, đánh bọt cà phê rót trên cùng\n- thành phẩm được ly 3 tầng",
+    "tools": "- Ly Irish (cốc trung)\n- Ống hút nhỏ\n- Thìa trung"
+  },
+  {
+    "stt": "5",
+    "name": "Cà Phê Muối",
+    "category": "Cà Phê",
+    "ingredients": "- Cà phê pha sẵn : 50ml\n- Sữa đặc : 30ml\nKem muối: 70ml\n- Đá bi 100gr",
+    "method": "- cho sữa đặc và cf vào ly khuấy đều, cho đá, đổ kem muối trên cùng rắc chút bột cacao mặt kem muối",
+    "tools": "- Ly Irish (cốc trung)\n- Ống hút nhỏ\n- Thìa trung"
+  },
+  {
+    "stt": "6",
+    "name": "Cà Phê kem trứng",
+    "category": "Cà Phê",
+    "ingredients": "- Cà phê pha sẵn : 50ml\n- Sữa đặc : 30ml\nKem trứng: 70ml\n- Đá bi 100gr",
+    "method": "- cho sữa đặc và cf vào ly khuấy đều, cho đá, đổ kem trứng trên cùng rắc kín bột cacao mặt kem trứng",
+    "tools": "- Ly Irish (cốc mocha)\n- Ống hút nhỏ \n- Thìa trung\n- Bột cacao"
+  },
+  {
+    "stt": "7",
+    "name": "Cà Phê capu Nóng",
+    "category": "Cà Phê",
+    "ingredients": "- Cà phê hạt xay: 10gr    - Sữa tươi đánh nóng: 130ml",
+    "method": "- Lấy cà phê vào tay phin, chiết xuất vào chén latte nóng.\n- Đánh sữa và vẽ hình",
+    "tools": "- Chén latte\n- Thìa ngắn\n- Đĩa sứ\n- Đường que"
+  },
+  {
+    "stt": "8",
+    "name": "Cà Phê capu Đá",
+    "category": "Cà Phê",
+    "ingredients": "-cà phê hạt 10gr\n- Sữa tươi lạnh: 100ml\n-Đường nước: 10ml\n- Đá viên : 50g",
+    "method": "- Chiết xuất 1 tách cf máy\n- Cho 100ml sữa tươi + 10ml đường nước khấy đều.\n- Sau đó đánh sữa lấy bọt rồi mới cho đá và rót cf đã chiết lên lên.",
+    "tools": "- Ly Irich ( Cốc Mocha)\n- Ống hút nhỏ và thìa cà phê trung."
+  },
+  {
+    "stt": "9",
+    "name": "Cà Phê Latte Đá",
+    "category": "Cà Phê",
+    "ingredients": "- Sữa tươi lạnh: 100ml\n- Đường nước: 10 ml\n- Đá viên: 50gr\n- Espresso: 1 tách",
+    "method": "- Chiết xuất 1 tách Espresso\n- Cho 100ml sữa tươi+10ml đường nước khuấy đều.\n- Sau đó đánh sữa lấy bọt rồi mới cho đá và rót tách Espresso",
+    "tools": "- Ly Irich (Cốc Mocha)\n- Ống hút nhỏ\n- Thìa trung"
+  },
+  {
+    "stt": "9",
+    "name": "Trà sữa nướng",
+    "category": "Cà Phê",
+    "ingredients": "- Hồng trà : 170ml\n- Bột sữa nướng :35gr\n- Sốt nướng: 30ml\n- trân châu nấu: 1 vá",
+    "method": "- cho trân châu và rót sốt nướng quanh thành cốc cho đá\n-cho Trà + bột sữa vào shaker shack mạnh 10 cái và đổ vào ly",
+    "tools": "- Cốc nhựa 500ml\n- Nắp cốc (hoặc dập )\nỐng hút Trân Châu"
+  },
+  {
+    "stt": "10",
+    "name": "Trà sữa trân châu đường đen",
+    "category": "Cà Phê",
+    "ingredients": "- Trà sữa pha sẵn : 2000ml\n- Đường đen :30ml\n- trân châu nấu: 1 vá",
+    "method": "- cho Trân châu vào cốc , rưới đường đen quanh thành cốc tạo viền\n- cho đá , rót trà sữa vào thẳng cốc",
+    "tools": "Cốc nhựa 500ml\n- Nắp cốc (hoặc dập )\nỐng hút Trân Châu"
+  },
+  {
+    "stt": "11",
+    "name": "Sữa tươi trân châu đường đen",
+    "category": "Cà Phê",
+    "ingredients": "- Sữa tươi 200ml\n- Trân châu nấu 1 vá\n- đường đen 30ml\n- đá 100gr",
+    "method": "cho Trân châu vào cốc , rưới đường đen quanh thành cốc tạo viền\n- cho đá , rót sữa tươi vào thẳng cốc",
+    "tools": "- Cốc nhựa 500ml\n- Nắp cốc (hoặc dập )\nỐng hút Trân Châu"
+  },
+  {
+    "stt": "12",
+    "name": "Trà sữa kem pho mai",
+    "category": "Cà Phê",
+    "ingredients": "-Trà sữa pha sẵn: 170ml\n- đường 30ml\n- Trân châu nấu 1 vá\n- Kem phomai : 70ml",
+    "method": "- cho Trân châu vào cốc\nĐổ trà sữa pha sẵn , thêm đường, thêm đá,kem phomai cho sau cùng trên mặt",
+    "tools": ""
+  },
+  {
+    "stt": "13",
+    "name": "Trà sữa kem trứng",
+    "category": "Cà Phê",
+    "ingredients": "-Trà sữa pha sẵn: 170ml\n- đường 30ml\n- Trân châu nấu 1 vá\n- Kem Trứng : 70ml\nChút bột cacao",
+    "method": "- cho Trân châu vào cốc\nĐổ trà sữa pha sẵn , thêm đường, thêm đá,kem trứng cho sau cùng trên mặt, rác bột cacao",
+    "tools": ""
+  },
+  {
+    "stt": "14",
+    "name": "Trà sữa xoài hoàng kim",
+    "category": "Cà Phê",
+    "ingredients": "-170ml Trà olong\n- 35gr bột sữa\n- 25ml sốt xoài\nTrân châu : 1 vá",
+    "method": "-Cho bột sữa và trà vào shacker shack mạnh\n- quét sốt xoài quanh miệng cốc tạo viền, cho trân châu, cho đá, Rót Trà sữa olong đã shack vào",
+    "tools": ""
+  },
+  {
+    "stt": "17",
+    "name": "Trà sữa matcha đường đen",
+    "category": "Cà Phê",
+    "ingredients": "-bột matcha :2gr\n- Bột sữa: 30gr\n- đường: 20ml\n- đường đen: 20ml\n- trân châu nấu : 1 vá",
+    "method": "Cho 2 gr bột mat cha và bột kem béo + 50 ml nước sôi đánh lên cho đường vào khuấy tan\nCho 15ml sốt vào hh trên khuấy. 5 ml còn lại quệt thành cốc trang trí, cho đá vào cốc đổ hh vào cốc thêm trân châu",
+    "tools": ""
+  },
+  {
+    "stt": "18",
+    "name": "Trà sữa hoa hồng",
+    "category": "Cà Phê",
+    "ingredients": "-Trà đen : 170ml\n- bột sữa 30gr\n- Siro dâu: 5ml\n- Mứt hoa hồng :15ml\n- đường : 10ml\nTrân châu: 1 vá",
+    "method": "-Cho trà và bột sữa vào shaker shack mạnh,\n- Cho đường siro dâu và mứt hoa hồng  vào cốc khuấy đều, \n- múc trân châu vào cốc đổ thành phẩm thêm đá đầy cốc",
+    "tools": ""
+  },
+  {
+    "stt": "19",
+    "name": "Olong sữa",
+    "category": "Cà Phê",
+    "ingredients": "-trà olong: 200ml\n-Bột sữa: 35gr\n-Đường : 30ml\n- Trân châu :1 vá",
+    "method": "Cho trà + bột sữa vào shaker shack mạnh, \n-cho trân châu vào cốc đổ hh thêm đá đầy cốc",
+    "tools": ""
+  },
+  {
+    "stt": "20",
+    "name": "Lục trà sữa",
+    "category": "Cà Phê",
+    "ingredients": "-trà xanh : 200ml\n-Bột sữa: 35gr\n-Đường : 30ml\n- Trân châu :1 vá",
+    "method": "Cho trà + bột sữa vào shaker shack mạnh, \n-cho trân châu vào cốc đổ hh thêm đá đầy cốc",
+    "tools": ""
+  },
+  {
+    "stt": "21",
+    "name": "Trà tắc",
+    "category": "Cà Phê",
+    "ingredients": "-Lục trà :150ml\n- đường : 60ml\n- Sốt tắc: 20\n- tắc: 10ml(1quar)\n- nha đam: ½ vá\n_ nước lọc : 50ml\nMuối ăn 1 chút",
+    "method": "Cho tất cả nguyên liệu vào shack + đá. Shack 5 cái đổ cốc +nha đam",
+    "tools": ""
+  },
+  {
+    "stt": "22",
+    "name": "Trà chanh bạc hà",
+    "category": "Cà Phê",
+    "ingredients": "-siro bạc hà :10ml\n- đường : 60ml\n-chanh tươi: 10ml\n- Sốt chanh : 20\nTrà lài : 1500ml_50m nước sôi",
+    "method": "-cho 10ml bạc hà đáy ly,thêm nửa cốc đá\n-shack hh chanh tươi+ trà+ đường cùng chút đá đổ vào ly",
+    "tools": ""
+  },
+  {
+    "stt": "23",
+    "name": "Trà tắc dưa lưới",
+    "category": "Cà Phê",
+    "ingredients": "-trà Xanh:150ml+ 50ml nước lọc\n- đường: 35ml\n- sốt tắc: 15ml\n- Sirro dưa lưới: 10ml\n- Nước cốt tắc: 5ml",
+    "method": "-cho hh dưa lưới+đường+sốt tắc+cốt tắc vào ly quấy đều\n- thêm đá đầy cốc, đổ trà phân tầng",
+    "tools": ""
+  },
+  {
+    "stt": "24",
+    "name": "Trà chanh",
+    "category": "Cà Phê",
+    "ingredients": "-trà lài:150ml+50ml nước lọc\n- sốt chanh:10ml\n- 15ml cốt chanh\n- 60 ml đường\nChút muối",
+    "method": "Quấy nhẹ tất cả nguyên liệu thêm đá đầy cốc",
+    "tools": ""
+  },
+  {
+    "stt": "25",
+    "name": "Trà chanh ổi",
+    "category": "Cà Phê",
+    "ingredients": "-trà lài: 150ml\n- đường :50ml\n- Chanh tươi: 15ml\n- nước ép ổi: 100ml",
+    "method": "-Cho trà+30 đường+15 chanh tươi vào đáy ly khuấy đều, thêm đá 2/3 ly\n- đổ nốt hh ép ổi +10ml đường phân tầng lên trên",
+    "tools": ""
+  },
+  {
+    "stt": "26",
+    "name": "Trà vải",
+    "category": "Cà Phê",
+    "ingredients": "-trà lài:150ml+50ml nước lọc\n- siro vải; 20ml\n- nước vải ngâm: 20ml\n- đường : 30ml\n-vải ngâm : 3 trái",
+    "method": "Cho tất cả nguyên liệu + đá vào shacker shack đều\nĐổ cốc thêm 3 trái vải lên trên",
+    "tools": ""
+  },
+  {
+    "stt": "27",
+    "name": "Trà đào",
+    "category": "Cà Phê",
+    "ingredients": "-1 tép cozy đào\n- nước sôi 200ml\n- Đường:30ml\n- nước đào ngâm: 20ml\n-siro đào: 20ml\n- đào miếng:30 gr",
+    "method": "-ngâm cozy đào cung 150 nước sôi trong 2p\nThêm đá cùng nguyên liệu còn lại vào shacker shack nhẹ 5 cái,đổ cốc thêm 2 miếng đào",
+    "tools": ""
+  },
+  {
+    "stt": "28",
+    "name": "Trà đào cam sả",
+    "category": "Cà Phê",
+    "ingredients": "-Cozy đào :1 tép\n-sả cây: 1 cây\n-nước sả :30ml\n- siro đào: 10ml\n- nước cam :50ml\n- đường:40ml\n- nước đào ngâm:20ml\n- đào miếng 30gr",
+    "method": "Sả cây cắt 2 lát deco, đập dập ngâm cùng tép trà vào 170ml nước nóng trong 2p\n-cho tất cả nguyên liệu cùng hh trà đã ngâm vào shacker+ đá shack nhẹ 5 cái, đổ ly thêm 2 miếng đào trên mặt",
+    "tools": ""
+  },
+  {
+    "stt": "29",
+    "name": "Trà lựu",
+    "category": "Cà Phê",
+    "ingredients": "-trà olong:150ml+50ml nước lọc\n-siro lựu:20ml\n- siro dâu:10ml\n- đường 35ml",
+    "method": "Cho tất cả hh + đá vào shacker shack nhẹ đổ cốc",
+    "tools": ""
+  },
+  {
+    "stt": "30",
+    "name": "Trà lựu bạc hà",
+    "category": "Cà Phê",
+    "ingredients": "-olong:150ml+50ml nước lọc\n- siro lựu:20ml\n- siro bạc hà :10ml\n- đường: 30 ml\nMilk foam 30ml",
+    "method": "Cho tất cả nguyên liệu vào cốc khuấy đều, thêm đá gần đầy cốc, milk foam trên mặt",
+    "tools": ""
+  },
+  {
+    "stt": "31",
+    "name": "Trà ánh dương",
+    "category": "Cà Phê",
+    "ingredients": "-olong: 150ml+50ml nước lọc\n- sốt cam:70ml\n- đường 25ml",
+    "method": "Cho tất cả ng liệu vào ly khuấy đều, cho đá đầy cốc, decor lat cam",
+    "tools": ""
+  },
+  {
+    "stt": "32",
+    "name": "Sinh Tố Dừa Xiêm",
+    "category": "Cà Phê",
+    "ingredients": "- Dừa xiêm: 01 quả\n- Cùi dừa: 80gr\n- Nước dừa: 100ml\n- Đường nước: 20ml\n- Sữa đặc: 30ml\n- Cốt dừa: 10ml\n- Đá viên: 100gr",
+    "method": "- Bổ dừa lấy 100ml nước dừa rồi nạo cùi dừa, cho đường, sữa đặc, cốt dừa.\n- Cho tất cả vào cối xay nhuyễn và đổ hỗn hợp ra quả dừa",
+    "tools": "- Quả dừa\n- Đĩa sứ\n- Ống hút to\n- Thìa trung"
+  },
+  {
+    "stt": "33",
+    "name": "Chanh Tuyết",
+    "category": "Cà Phê",
+    "ingredients": "- Chanh tươi:100gr\n- Đường nước: 50ml\n- Sữa đặc: 40ml\n- Đá viên: 300gr",
+    "method": "- Lấy 100gr chanh tươi vắt lấy cốt và cắt 3 lát vỏ cho đường, sữa, đá rồi cho vào cối xay nhuyễn\n- Đổ ra cốc và đắp cao",
+    "tools": "- Cốc cao\n- Thìa dài\n- Ống hút to"
+  },
+  {
+    "stt": "34",
+    "name": "Nước Chanh Tươi",
+    "category": "Cà Phê",
+    "ingredients": "- Chanh tươi: 100gr\n- Đường nước: 50ml\n- Một chút muối tinh\n- 3 giọt mật ong\n- Nước sạch: 150ml\n- Đá bi: 100gr",
+    "method": "- Vắt chanh lấy nước cốt, cho vào bình Shaker.\n- Thêm đường, muối, nước lọc, đá, mật ong shaker đều lên rồi đổ ra cốc, cắt lat chanh decor",
+    "tools": ""
+  },
+  {
+    "stt": "35",
+    "name": "Nước Chanh Leo",
+    "category": "Cà Phê",
+    "ingredients": "- Cốt chanh leo: 40 ml\n- Đường nước: 50ml\n- Nước sạch: 150ml\n- chút muối ăn\n- Đá viên: 100gr",
+    "method": "- Rót nước cốt chanh leo vào cốc, cho đường, nước lọc, đá vào cốc rồi khuấy đều",
+    "tools": ""
+  },
+  {
+    "stt": "36",
+    "name": "Nước Dứa Ép",
+    "category": "Cà Phê",
+    "ingredients": "- Dứa đã gọt vỏ: 300gr\n- Đường nước: 15ml\n- Đá viên: 100gr\n- Một chút muối tinh",
+    "method": "- Cho đường, đá, muối vào ca hứng của máy ép rồi cho dứa vào ép\n- Khuấy đều rồi đổ ra cốc",
+    "tools": ""
+  },
+  {
+    "stt": "37",
+    "name": "Nước Ổi Ép",
+    "category": "Cà Phê",
+    "ingredients": "- Ổi tươi: 400gr\n- Đường nước: 15ml\n- Đá viên: 100gr\n- Một chút muối tinh",
+    "method": "- Cho đường, đá, muối vào ca hứng của máy ép rồi cho ổi vào ép\n- Khuấy đều rồi đổ ra cốc",
+    "tools": ""
+  },
+  {
+    "stt": "38",
+    "name": "Nước Dưa Hấu Ép",
+    "category": "Cà Phê",
+    "ingredients": "- Dưa hấu: 300gr (thịt)\n- Đường nước: 15ml\n- Đá viên: 100gr\n- Vài giọt nước chanh tươi",
+    "method": "- Cho đường, đá, cốt chanh vào ca hứng của máy ép rồi cho dưa hấu vào ép\n- Khuấy đều rồi đổ ra cốc",
+    "tools": ""
+  },
+  {
+    "stt": "39",
+    "name": "Nước Táo Ép",
+    "category": "Cà Phê",
+    "ingredients": "- Táo: 400gr (chưa gọt vỏ)\n- Đường nước: 15ml\n- Đá viên: 100gr\n- Vài giọt nước chanh tươi. 1 chút muối",
+    "method": "- Gọt vỏ táo, cho đường, đá, muối vào ca hứng của máy ép rồi cho táo đã gọt vỏ vào ép\n- Khuấy đều rồi đổ ra cốc",
+    "tools": ""
+  },
+  {
+    "stt": "40",
+    "name": "Nước Cam Vắt",
+    "category": "Cà Phê",
+    "ingredients": "- Cam tươi: 500gr\n- Đường nước: 15ml\n- Đá viên: 100gr\n- Một chút muối tinh",
+    "method": "-Vắt cam lấy nước cốt, sau đó đổ vào cốc\n- Cho thêm đường, đá, muối khuấy đều",
+    "tools": ""
+  },
+  {
+    "stt": "41",
+    "name": "Nước Bưởi Ép",
+    "category": "Cà Phê",
+    "ingredients": "- Bưởi múi đã bóc vỏ: 300gr\n- Đường nước: 15ml\n- Đá viên: 100gr\n- Một chút muối tinh",
+    "method": "- Cho đường, đá, muối vào ca hứng của máy ép rồi cho bưởi vào ép\n- Khuấy đều rồi rót ra cốc",
+    "tools": ""
+  },
+  {
+    "stt": "42",
+    "name": "Trà trái cây nhiệt đới",
+    "category": "Cà Phê",
+    "ingredients": "-cốt chanh leo: 20ml\n-siro dâu: 15ml\n- siro đào :15ml\nĐường 30ml\n-hoa quả miếng 50gr\nHồng trà 120ml+ 50ml nước lọc",
+    "method": "Cho tát cả nguyên liệu vào shacker shack 7 cái, đổ ly và thêm hoa quả trên cùng",
+    "tools": "Ly 700ml + ống hút to"
+  },
+  {
+    "stt": "43",
+    "name": "Trà xoài",
+    "category": "Cà Phê",
+    "ingredients": "-sốt xoài: 40ml\n- đường : 35ml\n- trà xanh: 150ml+50ml nước lọc\n- Chanh tươi : 5ml\nNha đam: ½ vá",
+    "method": "Cho tất cả nguyên liệu vào shacker + đá, shack mạnh 5 lần, đổ cốc thêm nha đam",
+    "tools": ""
+  },
+  {
+    "stt": "44",
+    "name": "Trà xoài mãng cầu",
+    "category": "Cà Phê",
+    "ingredients": "-trà xanh: 150ml+50ml nước lọc\n - sốt mãng cầu: 20ml\n-sốt xoài: 20ml\nĐường :35ml\nXoài chín 30gr",
+    "method": "Cho xoài chín vào shacker dầm nát , thêm các nguyên liệu còn lại + đá, shack mạnh 5 lần đổ cốc",
+    "tools": ""
+  },
+  {
+    "stt": "45",
+    "name": "Trà mãng cầu dưa lưới",
+    "category": "Cà Phê",
+    "ingredients": "-trà xanh:150ml+50ml nước lọc\n- sốt mãng cầu : 30ml\n- sirro dưa lưới :20ml\n- Đường : 20ml\n-Chanh tươi: 2lat",
+    "method": "Cho tất cả nguyên liệu vào shacker+ đá bi shack mạnh 5 lần đổ cốc và thêm lát chanh decor",
+    "tools": ""
+  },
+  {
+    "stt": "46",
+    "name": "Sấu đá",
+    "category": "Cà Phê",
+    "ingredients": "-Nước sấu ngâm : 40ml\n- quả sấu : 3 quả\n- Nước lọc : 100ml\n- đường: 10ml",
+    "method": "Cho tất cả nguyên liệu vào cốc khuấy đều thêm đá đầy cốc 3 quả sấu trên cùng",
+    "tools": ""
+  },
+  {
+    "stt": "47",
+    "name": "Sấu khoáng",
+    "category": "Cà Phê",
+    "ingredients": "Nước sấu ngâm : 40ml\n- quả sấu : 3 quả\n- Nước khoáng 100ml\n- đường: 10ml",
+    "method": "Cho tất cả nguyên liệu vào cốc khuấy đều thêm đá đầy cốc 3 quả sấu trên cùng",
+    "tools": ""
+  },
+  {
+    "stt": "48",
+    "name": "Đậu Xanh Kem Dừa",
+    "category": "Cà Phê",
+    "ingredients": "-Sữa đặc: 40ml\n-Cốt dừa: 40ml\n-Đá viên: 200gr\n-Bột đậu xanh: 10gr\n-Kem dừa: 1/2 viên (size 16, gạt bằng)",
+    "method": "-Cho sữa đặc, cốt dừa, đá, bột đậu xanh vào cối xay nhuyễn rồi đổ cốc \n-Múc kem để lên trên cùng và thêm dừa khô",
+    "tools": ""
+  },
+  {
+    "stt": "49",
+    "name": "Rau Má Cốt Dừa",
+    "category": "Cà Phê",
+    "ingredients": "-Sữa đặc: 40ml\n-Cốt dừa: 40ml\n-Đá viên: 200gr\n-Bột rau má: 2gr\n-Kem dừa: 1 viên          (size 30)",
+    "method": "-Cho sữa đặc, cốt dừa, viên kem, đá vào cối xay nhuyễn\n- Hòa tan bột rau má với 20ml nước lọc vào cốc và đỗ hỗn hợp lên",
+    "tools": ""
+  },
+  {
+    "stt": "50",
+    "name": "Rau Má Đậu Xanh",
+    "category": "Cà Phê",
+    "ingredients": "-Sữa đặc: 40ml\n-Cốt dừa: 40ml\n-Đá viên: 200gr\n-Bột đậu xanh: 10gr\n-Bột rau má: 2gr",
+    "method": "-Cho sữa đặc, cốt dừa, bột đậu xanh, đá vào cối xay nhuyễn\n- Hòa tan bột rau má với 20ml nước lọc vào cốc và đỗ hỗn hợp lên",
+    "tools": ""
+  },
+  {
+    "stt": "51",
+    "name": "Cà Phê Đậu Xanh",
+    "category": "Cà Phê",
+    "ingredients": "- 20ml cà phê nước \n- 15ml đường nước \n- 40ml sữa đặc\n- 1 viên kem dừa size 30\n- 10g bột mix\n- 20g bột đậu xanh\n- 200g đá",
+    "method": "- Cho tất cả các nguyên liệu vào cối xay nhuyễn  sau đó cho vào cốc  thấp đã có sẵn 20ml cà phê truyền thống đánh bông",
+    "tools": ""
+  },
+  {
+    "stt": "52",
+    "name": "Cà phê dừa",
+    "category": "Cà Phê",
+    "ingredients": "Sữa đặc: 40ml\n- Cốt dừa: 50ml\n- Đá viên: 200gr\n- bột mix: 10gr\n- Cà phê nước: 20ml(đánh bông)",
+    "method": "- Cho tất cả các nguyên liệu vào cối xay nhuyễn  sau đó cho vào cốc  thấp đã có sẵn 20ml cà phê truyền thống đánh bông",
+    "tools": ""
+  },
+  {
+    "stt": "53",
+    "name": "Cacao đá xay",
+    "category": "Cà Phê",
+    "ingredients": "-Bột cacao: 30gr\n- Sữa đặc : 40ml\n- Sữa tươi : 30ml\n- đá : 300gr",
+    "method": "Cho tất cả nguyên liệu vào xay , đổ cốc tạo chóp",
+    "tools": ""
+  },
+  {
+    "stt": "54",
+    "name": "Chocolate đá xay",
+    "category": "Cà Phê",
+    "ingredients": "-sốt chocolate:30ml\n- bột cacao:5gr\n- sữa đặc: 20ml\n-ric:30ml\n- bột mix 10gr\nKem muối: 50ml",
+    "method": "Cho tất cả nguyên liệu vào cối xay, đổ cốc xả bắt kem trên cùng",
+    "tools": ""
+  },
+  {
+    "stt": "55",
+    "name": "Đá xay bạc hà",
+    "category": "Cà Phê",
+    "ingredients": "-Siro bạc hà\n-sữa đặc: 20ml\n-Bột mix:10gr\n- sữa tươi: 50ml\n-Kem muối: 50ml",
+    "method": "Cho tất cả nguyên liệu vào cối xay, đổ cốc xả bắt kem trên cùng",
+    "tools": ""
+  },
+  {
+    "stt": "57",
+    "name": "Hồng trà kem mây",
+    "category": "Cà Phê",
+    "ingredients": "-hồng trà: 150ml\n- đường: 30ml\n- trân châu: 1 vá\n- kem mây 50ml",
+    "method": "Cho trà + đường vào cốc khuấy đều, thêm trân châu, đá và đổ kem mây lên",
+    "tools": ""
+  },
+  {
+    "stt": "58",
+    "name": "Lục trà kem mây",
+    "category": "Cà Phê",
+    "ingredients": "Ng liệu cách làm tương tự hồng",
+    "method": "",
+    "tools": ""
+  },
+  {
+    "stt": "59",
+    "name": "Olong kem mây",
+    "category": "Cà Phê",
+    "ingredients": "Ng liệu cách làm tương tự hồng",
+    "method": "",
+    "tools": ""
+  },
+  {
+    "stt": "60",
+    "name": "Matcha kem mây",
+    "category": "Cà Phê",
+    "ingredients": "-150ml sữa tươi\n- bột matcha:2gr\n- đường :20ml\nKem mây",
+    "method": "Cho 100ml sữa tươi+20ml đường vào ly khuấy đều thêm đá đến 2/3 ly\n-đánh tan và bông bột matcha+50ml sữa tươi\n-đổ matcha tiếp tạo tầng 2. Bóp kem mây",
+    "tools": ""
+  },
+  {
+    "stt": "61",
+    "name": "Cà phê kem mây",
+    "category": "Cà Phê",
+    "ingredients": "-Cà phê pha sẵn : 40ml\n- sữa đặc :25ml\nKem mây",
+    "method": "Cho cà phê+ sữa đặc+ 20gr kem mây vào ly khuấy đều\n-bóp kem mây trên cùng",
+    "tools": ""
+  },
+  {
+    "stt": "62",
+    "name": "Trà sữa kem mây",
+    "category": "Cà Phê",
+    "ingredients": "-Trà sữa pha sẵn: 170ml\n- đường: 30ml\n- trân châu: 1 vá\nKem mây",
+    "method": "Cho lần lượt trân châu+trà sữa+ đường, khuấy đều, thêm đá, rót kem mây",
+    "tools": ""
+  },
+  {
+    "stt": "63",
+    "name": "Trà đào kem mây",
+    "category": "Cà Phê",
+    "ingredients": "-Trà cozy đào:1 tép\n- đường:20ml\n-siro đào:20ml\n- đào miếng cắt hạt lựu:30gr\nKem mây",
+    "method": "-ủ tép trà trong 150ml nước nóng trong 2p. \n-  Thành phẩm trà thu được cho vào ly thêm đường+siro khuấy đều thêm đá, thêm đào miếng.\n- bóp kem mây trên cùng",
+    "tools": ""
+  },
+  {
+    "stt": "64",
+    "name": "Sinh tố bơ",
+    "category": "Cà Phê",
+    "ingredients": "-bơ thịt : 100gr\n- Sữa đặc: 30ml\n- đường: 20ml\n- Sữa tươi: 50ml\n- Nước lọc :50 ml\n-đá :100gr",
+    "method": "Xay tất cả nguyên liệu đổ ra ly",
+    "tools": ""
+  },
+  {
+    "stt": "65",
+    "name": "Sinh tố mãng cầu",
+    "category": "Cà Phê",
+    "ingredients": "-M,cầu thịt : 100gr\n- Sữa đặc: 30ml\n- đường: 10ml\n- Nước lọc :100 ml\n-đá :100gr",
+    "method": "Xay tất cả nguyên liệu đổ ra ly",
+    "tools": ""
+  },
+  {
+    "stt": "66",
+    "name": "Sinh tố xoài",
+    "category": "Cà Phê",
+    "ingredients": "-xoài thịt : 100gr\n- Sữa đặc: 20ml\n- đường: 20ml\n- sữa tươi: 40 ml\n- Nước lọc :80 ml\n-đá :100gr",
+    "method": "Xay tất cả nguyên liệu đổ ra ly",
+    "tools": ""
+  },
+  {
+    "stt": "67",
+    "name": "Sinh tố chuối",
+    "category": "Cà Phê",
+    "ingredients": "Chuối thịt : 150gr\n- Sữa đặc: 30ml\n- đường: 10ml\n- sữa tươi: 40 ml\n- ric: 30ml\n-đá :150gr\n- lạc rang",
+    "method": "Xay tất cả nguyên liệu. Bắn lạc vỡ đổ ra ly",
+    "tools": ""
+  },
+  {
+    "stt": "68",
+    "name": "Sinh tố chuối dừa",
+    "category": "Cà Phê",
+    "ingredients": "-Chuối thịt: 120gr\n- ric: 40ml\n- cốt dừa: 40ml\n-Sữa đặc: 20ml\n- lạc, dừa khô",
+    "method": "Xay tất cả nguyên liệu. Bắn lạc vỡ đổ ra ly, thêm dừa khô decor",
+    "tools": ""
+  },
+  {
+    "stt": "69",
+    "name": "Sinh tố sữa chua",
+    "category": "Cà Phê",
+    "ingredients": "-sữa chua:1 hộp\n- sữa đặc: 20ml\n- đường :20ml\n- chanh: 5ml\nĐá : 200ml",
+    "method": "",
+    "tools": ""
+  },
+  {
+    "stt": "70",
+    "name": "Matcha late",
+    "category": "MATCHA",
+    "ingredients": "-Sữa tươi: 150ml\n- đường: 30ml\n- bột matcha: 2gr",
+    "method": "-Pha matcha vào 50ml nước sôi\n- khuấy đều sữa tươi và đường đổ ra cốc thêm đá 2/3 ly\n-đánh sữa và hớt bọt mịn đầy ly\n- đổ matcha vừa pha thẳng vào giữa lớp bọt sữa",
+    "tools": ""
+  },
+  {
+    "stt": "71",
+    "name": "Matcha chanh dây",
+    "category": "MATCHA",
+    "ingredients": "-sốt chanh leo: 50ml\n- sữa đặc: 20ml\n- đường: 20ml\n- bột mix: 10gr\n- bột matcha: 2gr\n- đá",
+    "method": "- hòa tan 2gr matcha cùng 30ml nước nóng đổ vào ly\n- xay tất cả nguyên liệu còn lại đổ vào cốc matcha",
+    "tools": ""
+  },
+  {
+    "stt": "72",
+    "name": "Matcha xoài",
+    "category": "MATCHA",
+    "ingredients": "-bột matcha: 2gr\n- bột kem béo:20gr\n- mứt xoài: 25ml\n- đường: 5ml\n- sữa đặc: 15ml",
+    "method": "-Hòa tan bột kem béo và bột matcha cùng chút muối trong 50ml nước sôi\n- cho sốt xoài, đường sữa đặc + 50ml nước sôi vào đáy ly khuấy đều hh. Cho đá gần đầy ly, rót phần matcha đã chuẩn bị trên cùng",
+    "tools": ""
+  },
+  {
+    "stt": "73",
+    "name": "Matcha đá xay",
+    "category": "MATCHA",
+    "ingredients": "-bột matcha: 2gr\n- ric: 20ml\n- Sữa đặc: 20ml\n- Đường 10ml\n- Siro matcha: 10ml\n- sữa tươi 50ml\nKem muối: 50ml",
+    "method": "Xay tất cả hh cùng 200gr đá bi, đổ cốc bắt kem",
+    "tools": ""
+  },
+  {
+    "stt": "74",
+    "name": "Matcha dâu",
+    "category": "MATCHA",
+    "ingredients": "bột matcha: 2gr\n- ric: 20ml\n- Sữa đặc: 20ml\n- sốt dâu  15ml\n- Siro matcha: 10ml\n- sữa tươi 50ml\nKem muối: 50ml",
+    "method": "-quết sốt dâu quanh thành cốc\nXay tất cả hh cùng 200gr đá bi, đổ cốc bắt kem",
+    "tools": ""
+  },
+  {
+    "stt": "75",
+    "name": "Matcha Việt Quất",
+    "category": "MATCHA",
+    "ingredients": "bột matcha: 2gr\n- ric: 20ml\n- Sữa đặc: 20ml\n- sốt V,quất  15ml\n- Siro matcha: 10ml\n- sữa tươi 50ml\nKem muối: 50ml",
+    "method": "quết sốt Việt Quất quanh thành cốc\nXay tất cả hh cùng 200gr đá bi, đổ cốc bắt kem",
+    "tools": ""
+  },
+  {
+    "name": "Ủ Trà Olong",
+    "category": "Bán thành phẩm",
+    "ingredients": "30gr trà olong\n1000ml nước sôi\n1gr muối",
+    "method": "Ủ trà 15 phút, đổ ra thêm 600gr đá",
+    "tools": ""
+  },
+  {
+    "name": "Ủ Trà Đen (Hồng Trà)",
+    "category": "Bán thành phẩm",
+    "ingredients": "35gr trà đen\n1000ml nước sôi\n1gr muối",
+    "method": "Ủ trà 13 phút, lọc trà bỏ bã thêm 600gr đá (nếu làm trà sữa pha sẵn thì không thêm đá)",
+    "tools": ""
+  },
+  {
+    "name": "Ủ Trà Xanh",
+    "category": "Bán thành phẩm",
+    "ingredients": "25gr trà xanh\n1000ml nước sôi\n1gr muối",
+    "method": "Ủ 7 phút, nước 80 độ. Lọc trà bỏ bã, thêm 700gr đá",
+    "tools": ""
+  },
+  {
+    "name": "Kem Muối",
+    "category": "Bán thành phẩm",
+    "ingredients": "400gr ric\n150gr whip\n50ml cốt dừa\n50ml sữa tươi\n50ml sữa đặc\n5gr muối trắng",
+    "method": "Đánh ric + whip + muối ăn mức mạnh nhất 7-10 phút. Hỗn hợp sánh, cho cốt dừa và sữa tươi đánh 2 phút. Hỗn hợp sánh đặc cho sữa đặc đánh 1 phút mức nhẹ. Thành phẩm bảo quản 3 ngày nhiệt độ tủ mát",
+    "tools": ""
+  },
+  {
+    "name": "Nấu Trân Châu",
+    "category": "Bán thành phẩm",
+    "ingredients": "500gr trân châu\n5000ml nước",
+    "method": "Trân châu lọc sàng. Nước sôi đổ trân châu, khuấy đều, nấu trong 30 phút. Sau 30 phút ủ 10 phút. Rửa trân châu (không xả trực tiếp nước vào trân châu). Ướp trân châu cùng 50gr đường vàng + 50ml đường lỏng",
+    "tools": ""
+  },
+  {
+    "name": "Kem Cheese",
+    "category": "Bán thành phẩm",
+    "ingredients": "Cream cheese: 100gr\nWhipping cream: 900gr\nSữa tươi: 300ml\nBột machiato: 6 muỗng\nMuối tinh: 8gr\nĐường vàng xay: 180gr",
+    "method": "Cho creamcheese + sữa tươi vào máy xay 30-45s (chế độ 3-4). Chuyển vào âu có sẵn whipping. Dùng máy đánh trứng cầm tay, 2 cánh lồng, tốc độ 1, vừa đánh vừa đổ hỗn hợp bột vào, duy trì tốc độ 1 trong 1p30s. Chuyển sang tốc độ MAX, duy trì 7 phút. Đậy nắp, bảo quản tủ mát. Lưu ý: đánh tối thiểu 1 lần công thức, tối đa 2 lần công thức",
+    "tools": ""
+  },
+  {
+    "name": "Ủ Cà Phê",
+    "category": "Bán thành phẩm",
+    "ingredients": "230gr cà phê số 1\nẤm pha cà phê",
+    "method": "Ủ 200ml, đổ 500ml, 200ml nước lần 3. Thu được 600ml cà phê thành phẩm",
+    "tools": ""
+  },
+  {
+    "name": "Trà Sữa Pha Sẵn",
+    "category": "Bán thành phẩm",
+    "ingredients": "105gr hồng trà\n3 lít nước\n750gr sữa bột",
+    "method": "Đun nước sôi, cho trà vào túi lọc, đun trong ấm 8 phút lửa nhỏ, lọc trà đổ vào ca đã đong sẵn bột, quấy tan sữa với trà, thêm đá để được đủ 4 lít trà sữa",
+    "tools": ""
+  },
+  {
+    "name": "Ủ Trà Đào Sả Sẵn",
+    "category": "Bán thành phẩm",
+    "ingredients": "5 tép trà\n6 cây sả\n1 lít nước nóng",
+    "method": "Đập thật dập sả, cắt đôi cây. 5 tép trà, sả, cùng 1 lít nước nóng ủ trong 10 phút",
+    "tools": ""
+  },
+  {
+    "name": "Làm Kem Mây",
+    "category": "Bán thành phẩm",
+    "ingredients": "Nước lọc: 140ml\nBột matcha: 4gr\nĐường: 45ml\nWhipping: 300gr\nMuối: 2gr",
+    "method": "Hòa tan 4gr matcha vào 140ml nước. Cho đường, muối và whip, bật máy đánh trứng đánh mức mạnh nhất 5 phút, chuyển chế độ nhẹ 2 phút, cho phần matcha đã pha trộn tiếp 1 phút. Cho kem vào túi dùng dần hoặc bình kem",
+    "tools": ""
+  },
+  {
+    "name": "Ủ Trà Mời (Trà Lá Nếp)",
+    "category": "Bán thành phẩm",
+    "ingredients": "Trà mạn: 15gr\nLá nếp: 100gr\n1 lít nước sôi",
+    "method": "Bắc nồi lên bếp, đun sôi nước, làm dập lá nếp, thả vào nồi nước đang sôi, hạ lửa đun tiếp 3 phút, tắt bếp. Cho 15gr trà mạn vào nồi nước lá nếp vừa đun, ủ 8 phút, lọc lấy nước bỏ bã. Hạn sử dụng 24h",
+    "tools": ""
+  },
+  {
+    "name": "Thạch Cà Phê",
+    "category": "Bán thành phẩm",
+    "ingredients": "100gr bột thạch\n500ml nước sôi\n50ml cà phê nước",
+    "method": "Cân bột thạch, đổ nước sôi vào khuấy đều, cho thêm nước cà phê vào khuấy tiếp khoảng 3 phút, để nguội ở nhiệt độ phòng cho nguội hẳn, sau đó giữ thạch trong tủ mát đến đông hoàn toàn. HSD 3 ngày",
+    "tools": ""
+  },
+  {
+    "name": "Thạch Lá Nếp",
+    "category": "Bán thành phẩm",
+    "ingredients": "100gr bột thạch\n1200ml nước sôi\n20ml sữa đặc\n50ml lá nếp\n20ml đường nước",
+    "method": "Cân bột thạch, đổ nước sôi vào khuấy đều, cho thêm siro lá nếp khuấy tiếp khoảng 3 phút, để nguội ở nhiệt độ phòng cho nguội hẳn, sau đó giữ trong tủ mát cho thạch đông hoàn toàn. HSD trong ngày",
+    "tools": ""
+  },
+  {
+    "name": "Đánh Kem Trứng",
+    "category": "Bán thành phẩm",
+    "ingredients": "Whip (base): 100ml\nBột kem trứng: 100gr\nBột mix: 20gr\nĐường: 100gr\nSữa tươi: 100ml",
+    "method": "Trộn bột kem trứng + bột mix đều với đường. Cho whip vào âu, bật máy đánh trứng, vừa đánh vừa cho từ từ hỗn hợp đã trộn vào, đánh 2 phút mức nhẹ, chuyển sang chế độ mạnh nhất đánh 5 phút, hỗn hợp đông đặc thì cho sữa tươi đánh 1p30s. Đậy kín bảo quản tủ mát, sử dụng trong 3 ngày",
+    "tools": ""
+  },
+  {
+    "name": "Đánh Kem Phomai",
+    "category": "Bán thành phẩm",
+    "ingredients": "Whip (base): 500ml\nBột phomai: 50gr\nSữa tươi: 150ml\nĐường: 100gr\nRic: 100ml\nMuối tinh: 3gr",
+    "method": "Trộn bột phomai + đường. Cho tất cả nguyên liệu còn lại vào âu, bật máy đánh trứng mức nhẹ, vừa đánh vừa cho từ từ hỗn hợp đã trộn vào, đánh 2 phút, chuyển sang chế độ mạnh nhất đánh 5 phút, hỗn hợp đông đặc thì cho sữa tươi đánh 1p30s. Đậy kín bảo quản tủ mát, sử dụng trong 3 ngày",
+    "tools": ""
+  }
+]
