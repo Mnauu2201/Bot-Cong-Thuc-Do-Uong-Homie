@@ -1,74 +1,108 @@
-# Bot công thức đồ uống — Telegram
+# Bot công thức đồ uống — Telegram (có admin)
 
 Bot nhận tên món (có dấu hoặc không dấu, gõ hơi sai cũng được), trả về:
-định lượng nguyên liệu, phương pháp pha chế, dụng cụ/trang trí — lấy từ file `data/recipes.json`
-(đã trích xuất sẵn từ file Word menu của quán, gồm 73 món + 15 công thức bán thành phẩm).
+định lượng nguyên liệu, phương pháp pha chế, dụng cụ/trang trí — lấy từ `data/recipes.json`.
 
-## 1. Tạo bot Telegram (2 phút)
+Chỉ **admin** (bạn) mới thêm/sửa/xoá được nhân viên và món. Nhân viên chưa được thêm vào danh sách sẽ không dùng được bot.
 
-1. Mở Telegram, chat với **@BotFather**
-2. Gõ `/newbot`, đặt tên và username cho bot (username phải kết thúc bằng `bot`)
-3. BotFather trả về một **token** dạng `123456789:AAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx` — lưu lại, không chia sẻ token này cho ai
+## 1. Tạo bot Telegram
 
-## 2. Chạy thử ở máy local
+1. Chat với **@BotFather** trên Telegram → `/newbot` → đặt tên, lấy **token** (dạng `123456789:AAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`)
+
+## 2. Lấy ADMIN_ID của bạn
+
+1. Chat với bot **@userinfobot** trên Telegram (gõ bất kỳ tin nhắn nào) — nó trả về ID Telegram của bạn
+2. Hoặc: chạy bot của bạn trước (bỏ qua bước cần ADMIN_ID tạm thời bằng cách đặt `ADMIN_ID=0`), chat `/myid` với bot để lấy ID, rồi set lại đúng ADMIN_ID và khởi động lại
+
+## 3. Chạy thử ở máy local
 
 ```bash
 cd bot
 pip install -r requirements.txt
-export BOT_TOKEN="token_bạn_vừa_lấy"
+# Windows PowerShell:
+$env:BOT_TOKEN="token_bot_của_bạn"
+$env:ADMIN_ID="123456789"
+python bot.py
+
+# macOS/Linux:
+export BOT_TOKEN="token_bot_của_bạn"
+export ADMIN_ID="123456789"
 python bot.py
 ```
 
-Vào Telegram, chat với bot, gõ thử: `cà phê sữa` hoặc `ca phe sua`, hoặc `/list` để xem toàn bộ menu.
+Chat với bot bằng chính tài khoản có ID = ADMIN_ID → bạn sẽ thấy thêm menu lệnh quản trị khi gõ `/start`.
 
-## 3. Sửa/thêm công thức
+## 4. Quản lý nhân viên (chỉ admin dùng được)
 
-Mở `data/recipes.json`, mỗi món là một object:
+| Lệnh | Chức năng |
+|---|---|
+| `/themnv <id> <tên>` | Thêm nhân viên vào whitelist |
+| `/xoanv <id>` | Xoá nhân viên khỏi whitelist |
+| `/dsnv` | Xem danh sách nhân viên |
 
-```json
-{
-  "name": "Tên món",
-  "category": "Nhóm món",
-  "ingredients": "Định lượng nguyên liệu",
-  "method": "Cách pha",
-  "tools": "Dụng cụ/trang trí"
-}
-```
+**Quy trình thêm nhân viên mới:**
+1. Nhân viên mở chat với bot, gõ `/myid` → bot trả về ID Telegram của họ
+2. Họ gửi ID đó cho bạn
+3. Bạn gõ `/themnv <id> <tên nhân viên>` — ví dụ: `/themnv 987654321 Lan`
+4. Nhân viên gõ lại `/start` là dùng được bot ngay
 
-Thêm/sửa/xoá object rồi lưu lại — không cần sửa code.
+Ai chưa có trong danh sách sẽ nhận thông báo "chưa được cấp quyền" kèm ID của họ khi thử nhắn cho bot.
 
-## 4. Deploy free 24/7
+## 5. Thêm / sửa / xoá món ngay trong Telegram (chỉ admin)
 
-Bot chạy kiểu "polling" (tự hỏi Telegram liên tục) nên chỉ cần **một process chạy nền liên tục** — không cần domain hay webhook. Gợi ý các nền tảng free phù hợp:
+**Thêm món mới** — gõ `/themmon`, bot sẽ hỏi lần lượt:
+1. Tên món
+2. Nhóm món (gõ `/bo_qua` nếu không có)
+3. Nguyên liệu / định lượng
+4. Phương pháp pha chế
+5. Dụng cụ / trang trí (gõ `/bo_qua` nếu không có)
 
-### Cách A — Railway.app (khuyên dùng, dễ nhất)
-1. Đẩy toàn bộ thư mục `bot/` này lên một repo GitHub
-2. Vào [railway.app](https://railway.app) → đăng nhập bằng GitHub → **New Project** → **Deploy from GitHub repo**
-3. Chọn repo vừa tạo
-4. Vào tab **Variables**, thêm biến `BOT_TOKEN` = token bot của bạn
-5. Railway tự nhận `requirements.txt` + `Procfile` (`worker: python bot.py`) và chạy 24/7
-6. Gói free có giới hạn giờ chạy/tháng (khoảng $5 credit free/tháng) — đủ cho 1 bot cỡ nhỏ chạy cả tháng
+Sau đó bot cho xem lại toàn bộ, gõ `/luu` để lưu hoặc `/huy` để huỷ bất cứ lúc nào trong quá trình.
 
-### Cách B — Render.com (Background Worker)
-1. Đẩy code lên GitHub như trên
-2. Vào [render.com](https://render.com) → **New** → **Background Worker**
-3. Chọn repo, **Build Command**: `pip install -r requirements.txt`, **Start Command**: `python bot.py`
-4. Thêm biến môi trường `BOT_TOKEN` trong tab Environment
-5. Deploy — Background Worker không "ngủ" như Web Service free nên chạy được 24/7 (gói free giới hạn số giờ/tháng, kiểm tra hạn mức hiện tại trên Render)
+**Sửa món** — gõ `/suamon <tên món>` (ví dụ: `/suamon trà đào`). Nếu khớp nhiều món, bot cho chọn. Sau đó bấm nút chọn trường muốn sửa (Tên món / Nhóm món / Nguyên liệu / Phương pháp / Dụng cụ), gõ giá trị mới là xong. Cũng có nút "🗑 Xoá món này" ngay trong màn hình sửa.
 
-### Cách C — Máy chủ/VPS riêng hoặc máy tính để chạy liên tục
-Nếu có sẵn máy chạy 24/7 (VPS, Raspberry Pi...), chỉ cần:
+**Xoá món** — gõ `/xoamon <tên món>`, bot hỏi xác nhận trước khi xoá (không thể hoàn tác).
+
+Mọi thay đổi lưu thẳng vào `data/recipes.json` — không cần sửa code, không cần restart bot.
+
+## 6. Deploy free 24/7
+
+Vẫn chạy kiểu polling, không cần domain/webhook.
+
+### Railway.app (khuyên dùng)
+1. Đẩy thư mục `bot/` lên GitHub
+2. [railway.app](https://railway.app) → **New Project** → **Deploy from GitHub repo**
+3. Tab **Variables**, thêm:
+   - `BOT_TOKEN` = token bot
+   - `ADMIN_ID` = ID Telegram của bạn
+4. Railway tự chạy theo `Procfile`
+
+### Render.com (Background Worker)
+1. Đẩy code lên GitHub
+2. **New** → **Background Worker**, Build: `pip install -r requirements.txt`, Start: `python bot.py`
+3. Thêm biến môi trường `BOT_TOKEN` và `ADMIN_ID`
+
+> ⚠️ **Lưu ý quan trọng về dữ liệu:** `data/recipes.json` và `data/staff.json` được ghi trực tiếp lên ổ đĩa của server. Trên Railway/Render, dữ liệu này **có thể bị mất khi bạn deploy lại code mới** (redeploy tạo container mới từ đầu), trừ khi bạn gắn thêm **persistent volume/disk** (Railway: mục Volumes; Render: mục Disks — cả hai đều có trên gói free hoặc trả phí tuỳ thời điểm, kiểm tra lại chính sách hiện tại). Nếu không gắn volume, nên:
+> - Backup định kỳ: tải `data/recipes.json` về sau khi thêm nhiều món qua bot
+> - Hoặc chỉ redeploy khi thực sự sửa code, không phải mỗi khi thêm món
+
+### Chạy trên máy/VPS riêng
 ```bash
 pip install -r requirements.txt
 export BOT_TOKEN="..."
+export ADMIN_ID="..."
 nohup python bot.py &
 ```
-hoặc chạy qua `systemd`/`pm2` để tự khởi động lại khi crash hoặc reboot máy.
 
-> Lưu ý: các gói "free" của Railway/Render đều có giới hạn (giờ chạy hoặc credit hàng tháng), có thể thay đổi theo chính sách của họ — kiểm tra lại trang giá hiện tại trước khi deploy để chắc chắn phù hợp nhu cầu chạy 24/7 lâu dài.
+## 7. Tổng hợp lệnh
 
-## 5. Lệnh bot hỗ trợ
+**Ai cũng dùng được (sau khi được thêm vào whitelist):**
+- Gõ tên món → nhận công thức
+- `/list` — xem toàn bộ menu
+- `/myid` — lấy ID Telegram của mình
+- `/start` — hướng dẫn
 
-- Gõ trực tiếp tên món → nhận công thức (nếu ra nhiều kết quả, bot gửi nút bấm để chọn đúng món)
-- `/list` — xem toàn bộ menu theo nhóm
-- `/start` — hướng dẫn sử dụng
+**Chỉ admin:**
+- `/themnv <id> <tên>`, `/xoanv <id>`, `/dsnv`
+- `/themmon`, `/suamon <tên món>`, `/xoamon <tên món>`
+- `/huy` — huỷ luồng thêm/sửa món đang thực hiện
